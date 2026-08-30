@@ -1,0 +1,23 @@
+{
+  "blueprint_repair_succeeded": false,
+  "blueprint_required_cells": 20,
+  "initial_local_free_cells": 47,
+  "local_cells_left_available": 7,
+  "morph_audit": {
+    "active_cells": 147,
+    "certificate_root": "a5346be347ddbf1de17c7a484c9ab4e965904d655c683a5b6190efc394970eed",
+    "certificates_valid": true,
+    "contracts_exact": true,
+    "disjoint_placement": true,
+    "failed_cells": 1,
+    "no_failed_active_cells": true,
+    "owner_index_valid": true,
+    "retired_cells": 40
+  },
+  "morph_exact_over_all_65536_input_pairs": true,
+  "morph_minimum_required_cells": 7,
+  "morph_repair_succeeded": true,
+  "morph_selected_cells": 7,
+  "morph_selected_shape": "shannon",
+  "success": true
+}

@@ -1,0 +1,28 @@
+{
+  "active_cells_after": 15360,
+  "audit": {
+    "active_cells": 15360,
+    "certificate_root": "37abbb5c462647d291268af213fc48ad8eb7cdb503cdc3bd2d034b7f5d8ef839",
+    "certificates_valid": true,
+    "contracts_exact": true,
+    "disjoint_placement": true,
+    "failed_cells": 0,
+    "no_failed_active_cells": true,
+    "owner_index_valid": true,
+    "retired_cells": 24213
+  },
+  "elapsed_seconds": 0.721121906999997,
+  "independent_products_exact": true,
+  "initial_active_cells": 24213,
+  "organs": 3072,
+  "semantic_fingerprint_unchanged": true,
+  "success": true,
+  "turnover": {
+    "edge_jaccard": 0.0,
+    "implementation_changed": 1,
+    "original_cells_remaining": 0,
+    "repairs": 3072,
+    "structural_replacements": 3072
+  },
+  "word_width": 32
+}

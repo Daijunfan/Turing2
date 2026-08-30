@@ -1,0 +1,22 @@
+{
+  "active_cells_after": 3840,
+  "audit": {
+    "active_cells": 3840,
+    "certificate_root": "41ce4f333e5bb7e70dd2cec4b94a17ca465716adf1e97aaa0ff873702b82b82e",
+    "certificates_valid": true,
+    "contracts_exact": true,
+    "disjoint_placement": true,
+    "failed_cells": 3910,
+    "no_failed_active_cells": true,
+    "owner_index_valid": true,
+    "retired_cells": 0
+  },
+  "cumulative_failed_cells": 3910,
+  "faults_per_round_fraction_of_live_cells": 0.01,
+  "periodic_arithmetic_checks_passed": 10,
+  "periodic_arithmetic_checks_total": 10,
+  "repair_events": 3794,
+  "rounds": 100,
+  "substrate_capacity": 31488,
+  "success": true
+}

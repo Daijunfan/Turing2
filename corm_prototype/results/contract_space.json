@@ -1,0 +1,18 @@
+{
+  "elapsed_seconds": 16.177290487000164,
+  "function_space": 65536,
+  "functions_all_variants_exact": 65536,
+  "functions_with_at_least_two_distinct_shapes": 65536,
+  "input_arity": 4,
+  "maximum_variant_gates": 47,
+  "median_variant_gates": 14,
+  "method_occurrences": {
+    "anf": 65534,
+    "redundant_partition": 1,
+    "shannon": 65530,
+    "sop": 65536
+  },
+  "minimum_variant_gates": 1,
+  "success": true,
+  "variants_verified": 196601
+}

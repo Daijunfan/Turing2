@@ -1,0 +1,251 @@
+{
+  "all_experiments_success": true,
+  "artifact": "CORM 0.1.0",
+  "date": "2026-08-30",
+  "files": [
+    {
+      "bytes": 3811,
+      "path": "ALGORITHM_SPEC.md",
+      "sha256": "42eef788b2daa5391c1c460ece30fa4b32ecf41a812d7be15474b6b6d3ab7dcb"
+    },
+    {
+      "bytes": 2546,
+      "path": "CLAIMS_AND_LIMITATIONS.md",
+      "sha256": "b5935276c3ecbf294d72168d9d6284694f6bb4c329b55538ab784d596acf8c2d"
+    },
+    {
+      "bytes": 3592,
+      "path": "README.md",
+      "sha256": "91bc9ca4dad074ddad5cb6e0e3cdba14ce4b39789d8e8ddbf2ee222c308dcd72"
+    },
+    {
+      "bytes": 15022,
+      "path": "RESEARCH_REPORT_CN.md",
+      "sha256": "461ec9a293eb9d5ebc78492c8e11b17cd26c4817e884cc77ff06c2eced800e20"
+    },
+    {
+      "bytes": 1464,
+      "path": "aggregate_results.py",
+      "sha256": "b13c69eb7205d8d8fda9def54ddd838ff65f20df704828ebc48b7a9a5030225d"
+    },
+    {
+      "bytes": 187,
+      "path": "corm/__init__.py",
+      "sha256": "464bcb3bba08f6ac7348881eef66a42152b53a95bb17f7d05c75f1c1babcbedd"
+    },
+    {
+      "bytes": 4243,
+      "path": "corm/builders.py",
+      "sha256": "aa5fde1b64f21c2898714502d370ecfcbb8072aeb9358855b578954c5591da6b"
+    },
+    {
+      "bytes": 6101,
+      "path": "corm/compiler.py",
+      "sha256": "27913eeef0e2d48123c9b24f54fe8c50c8fdcdb6881297895c4203bab42e9ffa"
+    },
+    {
+      "bytes": 14775,
+      "path": "corm/core.py",
+      "sha256": "d862b7966e7b942055c22b6001098074ee7b18bacac965eeb90aa67e60ca6d7b"
+    },
+    {
+      "bytes": 6614,
+      "path": "corm/dynamics.py",
+      "sha256": "f24a8317b9db1716655d5f0be5d886343bc056d5deace5a0ee65970d204733f3"
+    },
+    {
+      "bytes": 886,
+      "path": "corm/library.py",
+      "sha256": "122d28d7f2b100daf384bfb4799612698293b47596cac5d6bdb2db968adb1d09"
+    },
+    {
+      "bytes": 9549,
+      "path": "corm/program.py",
+      "sha256": "47abd971ab04c16d0c58d38d7f1e573ae12ddbf8c57ff3204d1d2cd504f72ef8"
+    },
+    {
+      "bytes": 20527,
+      "path": "corm/runtime.py",
+      "sha256": "d61ae08e063e44d3f8710f634e48ae2ad082ced57b7ca670255610965b23de75"
+    },
+    {
+      "bytes": 5579,
+      "path": "corm/sequential.py",
+      "sha256": "267acad2b5798a151f1c98b2b50236d22a5b145bcef44fc42002d4c45b1331b3"
+    },
+    {
+      "bytes": 74379,
+      "path": "figures/certificate_scaling.png",
+      "sha256": "49281d554536a4bf195925007eb60c34a5412d897d132c25de57ed343981da09"
+    },
+    {
+      "bytes": 65829,
+      "path": "figures/damage_adaptation.png",
+      "sha256": "5a98e2d31c95543b586be5377bc59bebe23ead82bdfba55c8dc522f5848a5707"
+    },
+    {
+      "bytes": 63306,
+      "path": "figures/repair_scaling.png",
+      "sha256": "bb74f0ff00e10b2cf16a39e5891e8d9410d1eb72e1ef5edc78f0de36f0dd7305"
+    },
+    {
+      "bytes": 75035,
+      "path": "figures/rule110_turnover.png",
+      "sha256": "90e3bd08ad824f39e88a3664b8b4648d2c0945d3899816a62b8a0e53867d3606"
+    },
+    {
+      "bytes": 60001,
+      "path": "figures/vm_turnover.png",
+      "sha256": "062729d7c2639f004506d786b318c4f5b7adbde10156392a87886cb53136451f"
+    },
+    {
+      "bytes": 381,
+      "path": "pyproject.toml",
+      "sha256": "cd033665579831df5d3a1864e371c8247f17d1d70d8540c8884653c6ba6c9acc"
+    },
+    {
+      "bytes": 446,
+      "path": "results/contract_space.json",
+      "sha256": "1ad8b3a72cae2cd4139849008babda10f48598076ca959b5c88a7353bf0ecf9b"
+    },
+    {
+      "bytes": 192,
+      "path": "results/environment.json",
+      "sha256": "35cebb8fb7a0e662ae7dab93a4cb19bdfbc6019765b004d9fc9ec4ff72a98313"
+    },
+    {
+      "bytes": 3995,
+      "path": "results/exact_programs.json",
+      "sha256": "b24287f2982af2ad5554d6a2056ab815cb18c4fba675b72d7641fa99a2187164"
+    },
+    {
+      "bytes": 9644,
+      "path": "results/fault_fraction.json",
+      "sha256": "dab474c75378163aafca96adf11705f04245a43e766a04132dc80e77bbb716cd"
+    },
+    {
+      "bytes": 363,
+      "path": "results/fault_fraction_summary.csv",
+      "sha256": "dce803365e9ec0af28511e4fff857a7ab92e7979ce32c8ca1010003a9ab4023f"
+    },
+    {
+      "bytes": 2019,
+      "path": "results/fault_fraction_trials.csv",
+      "sha256": "a4276523132dc2898e14edbdd97c0ad41ab43ae301bd2161b0165b4612524485"
+    },
+    {
+      "bytes": 6114,
+      "path": "results/generic_compiler.json",
+      "sha256": "89e72c909944fd70fb8180969b90b038c208f9ff8ddaddde62a65a03a8c424b3"
+    },
+    {
+      "bytes": 866,
+      "path": "results/large_multiplier64.json",
+      "sha256": "718d6c2aecfd6ac38e5d0377141acbef531b465a8859f43439f8164574c584b5"
+    },
+    {
+      "bytes": 698,
+      "path": "results/local_capacity_separation.json",
+      "sha256": "4625b1ae3da8a5587270d0ab0594b4aaf96bb92f6b2142015c1d71aa36f85b33"
+    },
+    {
+      "bytes": 254,
+      "path": "results/random6_contracts.json",
+      "sha256": "fdbaf3eeceda0ce657fc90641b6743a63a3efd7ca3367f73005d6ab7a96206bf"
+    },
+    {
+      "bytes": 640,
+      "path": "results/repeated_damage.json",
+      "sha256": "c25cba0d3b1c713ad42d2837f2dc97cba7e54238cb28e0c9632353040c45e279"
+    },
+    {
+      "bytes": 751,
+      "path": "results/rule110.json",
+      "sha256": "c1381150ce01e445fac0655d9f8ca731db54970a4ffa52115d26105c8f8397a2"
+    },
+    {
+      "bytes": 82466,
+      "path": "results/rule110_trace.csv",
+      "sha256": "85f8ff7dbf5415b4b494862e779af60e20210df2c0b74a19cdbcc088727dd555"
+    },
+    {
+      "bytes": 777,
+      "path": "results/scaling.csv",
+      "sha256": "9d68996e9ae10a5d042831d6f4af0f34e93b9db02cca101a81911a4bc5c76e85"
+    },
+    {
+      "bytes": 3615,
+      "path": "results/scaling.json",
+      "sha256": "b0931e94eed7db1deddc158050c05a6c991f173baeee05bf8b98fcf82812f24e"
+    },
+    {
+      "bytes": 640,
+      "path": "results/stateful_vm.json",
+      "sha256": "da6bad9dc1c529f52607ab0f7d7c3ee9e0c344ada29cd1ffe22ca002065daf6a"
+    },
+    {
+      "bytes": 30754,
+      "path": "results/summary.json",
+      "sha256": "1eaf55bd52a720ad40d601b1733dba48cc8d7b2c837545b55b42dbbd7657d3a7"
+    },
+    {
+      "bytes": 761,
+      "path": "results/turnover_multiplier32.json",
+      "sha256": "06482345602424e9d21662b20eb940b8144f2396e57281b8591232ead457f57e"
+    },
+    {
+      "bytes": 58758,
+      "path": "results/vm_trace.csv",
+      "sha256": "8a58628912ee34243ad5f74a61890944f17830f6874056d0178e3264bbf8e478"
+    },
+    {
+      "bytes": 356,
+      "path": "run_all.sh",
+      "sha256": "c2635a2371c52f278b5f35fd2567ac7792510c0926ce374ed87fbe995ac6f453"
+    },
+    {
+      "bytes": 33410,
+      "path": "run_experiments.py",
+      "sha256": "848a8145466ea75b2d4e6049da7d1ac3f61daa921d16a3823a4d0f01e861971d"
+    },
+    {
+      "bytes": 978,
+      "path": "tests/test_compiler.py",
+      "sha256": "6892dba1f93cba6a44550c434f7c7df8ef2b5759147a957d3a47014743420045"
+    },
+    {
+      "bytes": 1843,
+      "path": "tests/test_core.py",
+      "sha256": "62b650950959a2f2c650a8cbca49085e1f81b961ef6e4dfe50b603936d061a25"
+    },
+    {
+      "bytes": 653,
+      "path": "tests/test_dynamics.py",
+      "sha256": "f2d74095d2d290909276e326ddff4b0bae5342943d3092b5f529f91be7ff5c87"
+    },
+    {
+      "bytes": 1265,
+      "path": "tests/test_runtime.py",
+      "sha256": "65e4bc2b24c11f1910ad318ec3e4398f24b4119d9d0fa33628385e41012b0028"
+    },
+    {
+      "bytes": 812,
+      "path": "tests/test_sequential.py",
+      "sha256": "ef5764dbaefdff9bc6fd94862352c28ee5aa67329b5c7258d3efc1cee01a15a6"
+    }
+  ],
+  "headline_checks": {
+    "complete_4input_function_space": 65536,
+    "exact_4input_variants": 196601,
+    "generic_compiler_cases": 12,
+    "generic_output_bits_compared": 37748736,
+    "generic_source_gates": 49152,
+    "large_multiplier_active_cells": 96254,
+    "large_multiplier_faults": 4812,
+    "large_multiplier_organs": 12288,
+    "pytest_tests": 10,
+    "random_6input_variants": 3000,
+    "rule110_exact_cell_updates": 2097152,
+    "stateful_vm_cycles": 2000
+  }
+}

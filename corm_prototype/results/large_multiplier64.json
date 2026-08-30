@@ -1,0 +1,28 @@
+{
+  "active_cells_after": 73634,
+  "active_cells_before": 96254,
+  "all_local_contracts_exact": true,
+  "audit": {
+    "active_cells": 73634,
+    "certificate_root": "f387544018d609935519d440ef107875cf127c9295008817136fae9ba95c2044",
+    "certificates_valid": true,
+    "contracts_exact": true,
+    "disjoint_placement": true,
+    "failed_cells": 4812,
+    "no_failed_active_cells": true,
+    "owner_index_valid": true,
+    "retired_cells": 0
+  },
+  "deployment_seconds": 0.7838280969999687,
+  "fault_rate_of_active_cells": 0.04999272757495792,
+  "faults_injected": 4812,
+  "independent_64bit_products_exact_after": true,
+  "independent_64bit_products_exact_before": true,
+  "maximum_possible_cells": 167936,
+  "organs": 12288,
+  "organs_repaired": 3567,
+  "repair_seconds": 1.4480748399996628,
+  "substrate_capacity": 419840,
+  "success": true,
+  "word_width": 64
+}

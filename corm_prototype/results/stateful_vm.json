@@ -1,0 +1,24 @@
+{
+  "audit": {
+    "active_cells": 97,
+    "certificate_root": "7599e9dacc4ee2f05cf547224826fa3f5106cd1deecaab87b73b6397ab589fba",
+    "certificates_valid": true,
+    "contracts_exact": true,
+    "cycles": 2000,
+    "disjoint_placement": true,
+    "failed_cells": 87,
+    "no_failed_active_cells": true,
+    "original_compute_remaining": 0,
+    "original_state_remaining": 0,
+    "owner_index_valid": true,
+    "retired_cells": 308,
+    "state_matches_reference": true
+  },
+  "compute_faults_injected": 87,
+  "compute_organs": 48,
+  "cycles": 2000,
+  "final_state": 228,
+  "reference_state": 228,
+  "repair_events": 135,
+  "success": true
+}

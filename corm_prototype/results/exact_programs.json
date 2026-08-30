@@ -1,0 +1,128 @@
+{
+  "adder8": {
+    "audit_after_faults": {
+      "active_cells": 56,
+      "certificate_root": "01ea869ffc3877a52f289537d72297efefc1264607ac2fcb24f8ba197fb03164",
+      "certificates_valid": true,
+      "contracts_exact": true,
+      "disjoint_placement": true,
+      "failed_cells": 16,
+      "no_failed_active_cells": true,
+      "owner_index_valid": true,
+      "retired_cells": 0
+    },
+    "audit_after_turnover": {
+      "active_cells": 56,
+      "certificate_root": "3af53f1cab10ba5e9aaa0d2d21be369223df714d103fa3a950be1ec507e81125",
+      "certificates_valid": true,
+      "contracts_exact": true,
+      "disjoint_placement": true,
+      "failed_cells": 16,
+      "no_failed_active_cells": true,
+      "owner_index_valid": true,
+      "retired_cells": 99
+    },
+    "exact_after_20pct_random_cell_faults": true,
+    "exact_after_complete_turnover": true,
+    "exact_before": true,
+    "faults_injected": 16,
+    "implementation_fingerprint_changed": true,
+    "initial_active_cells": 82,
+    "organs": 8,
+    "organs_repaired": 5,
+    "semantic_fingerprint_unchanged": true,
+    "structural_fault_repairs": 2,
+    "success": true,
+    "turnover": {
+      "edge_jaccard": 0.0,
+      "implementation_changed": 1,
+      "original_cells_remaining": 0,
+      "repairs": 8,
+      "structural_replacements": 8
+    }
+  },
+  "alu8": {
+    "audit_after_faults": {
+      "active_cells": 115,
+      "certificate_root": "1c45881884b0a99ef70126959f71529ec6d7a1f3371f7c22ddd1a938b88cfd3b",
+      "certificates_valid": true,
+      "contracts_exact": true,
+      "disjoint_placement": true,
+      "failed_cells": 49,
+      "no_failed_active_cells": true,
+      "owner_index_valid": true,
+      "retired_cells": 0
+    },
+    "audit_after_turnover": {
+      "active_cells": 166,
+      "certificate_root": "a513291ece350cf858ceb9ce2e3d677f02641ad09f5c459e6f68d497fb3cd9cf",
+      "certificates_valid": true,
+      "contracts_exact": true,
+      "disjoint_placement": true,
+      "failed_cells": 49,
+      "no_failed_active_cells": true,
+      "owner_index_valid": true,
+      "retired_cells": 251
+    },
+    "exact_after_20pct_random_cell_faults": true,
+    "exact_after_complete_turnover": true,
+    "exact_before": true,
+    "faults_injected": 49,
+    "implementation_fingerprint_changed": true,
+    "initial_active_cells": 247,
+    "organs": 48,
+    "organs_repaired": 23,
+    "semantic_fingerprint_unchanged": true,
+    "structural_fault_repairs": 21,
+    "success": true,
+    "turnover": {
+      "edge_jaccard": 0.0,
+      "implementation_changed": 1,
+      "original_cells_remaining": 0,
+      "repairs": 48,
+      "structural_replacements": 48
+    }
+  },
+  "multiplier8": {
+    "audit_after_faults": {
+      "active_cells": 960,
+      "certificate_root": "b10b1b77b230df16a25278fe04b7727ddf3e15a13c2f8d0123e6575f442a4ab4",
+      "certificates_valid": true,
+      "contracts_exact": true,
+      "disjoint_placement": true,
+      "failed_cells": 306,
+      "no_failed_active_cells": true,
+      "owner_index_valid": true,
+      "retired_cells": 0
+    },
+    "audit_after_turnover": {
+      "active_cells": 960,
+      "certificate_root": "1cabaa38753fcdd7a2b1d9a4342e379a07fb3ea8f80e06548f69a2a73a2a7d55",
+      "certificates_valid": true,
+      "contracts_exact": true,
+      "disjoint_placement": true,
+      "failed_cells": 306,
+      "no_failed_active_cells": true,
+      "owner_index_valid": true,
+      "retired_cells": 1899
+    },
+    "exact_after_20pct_random_cell_faults": true,
+    "exact_after_complete_turnover": true,
+    "exact_before": true,
+    "faults_injected": 306,
+    "implementation_fingerprint_changed": true,
+    "initial_active_cells": 1532,
+    "organs": 192,
+    "organs_repaired": 119,
+    "semantic_fingerprint_unchanged": true,
+    "structural_fault_repairs": 90,
+    "success": true,
+    "turnover": {
+      "edge_jaccard": 0.0,
+      "implementation_changed": 1,
+      "original_cells_remaining": 0,
+      "repairs": 192,
+      "structural_replacements": 192
+    }
+  }
+}

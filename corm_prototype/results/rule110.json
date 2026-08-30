@@ -1,0 +1,27 @@
+{
+  "audit": {
+    "active_cells": 4734,
+    "certificate_root": "b1bc318ee50c5e1e5e2e345e8a38b788fdfa2aa2d228499afc5f0daf31baccbd",
+    "certificates_valid": true,
+    "contracts_exact": true,
+    "cycles": 2048,
+    "disjoint_placement": true,
+    "failed_cells": 121,
+    "final_ones": 589,
+    "no_failed_active_cells": true,
+    "original_compute_remaining": 0,
+    "original_state_remaining": 0,
+    "owner_index_valid": true,
+    "retired_cells": 10397,
+    "ring_width": 1024,
+    "state_matches_reference": true
+  },
+  "compute_faults_injected": 121,
+  "cycles": 2048,
+  "elapsed_seconds": 9.797847023000031,
+  "exact_cell_updates": 2097152,
+  "final_ones": 589,
+  "repair_and_turnover_events": 1145,
+  "ring_width": 1024,
+  "success": true
+}

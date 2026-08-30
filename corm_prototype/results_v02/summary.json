@@ -1,0 +1,741 @@
+{
+  "ablations": {
+    "cases": {
+      "abstract_variant_only_certificate": {
+        "abstract_variant_passed": true,
+        "expected_negative_control": true,
+        "physical_certificate_passed": false,
+        "physical_error_bits": 2
+      },
+      "blueprint_only_repair": {
+        "expected_negative_control": true,
+        "repair_success": false
+      },
+      "direct_teleport_edge_legacy": {
+        "abstract_output_survived_total_cell_destruction": true,
+        "expected_negative_control": true
+      },
+      "morphology_repair": {
+        "expected_positive_control": true,
+        "repair_success": true
+      },
+      "no_repair": {
+        "expected_negative_control": true,
+        "semantic_correct": false
+      },
+      "random_asynchronous_schedule": {
+        "cases_exact": true
+      },
+      "single_fixed_schedule": {
+        "cases_exact": true
+      },
+      "without_physical_wire_cells": {
+        "configuration_rejected": true,
+        "expected_negative_control": true
+      },
+      "without_shadow_direct_metadata_overwrite": {
+        "expected_negative_control": true,
+        "semantic_correct": false
+      }
+    },
+    "success": true
+  },
+  "all_hard_gates_pass": true,
+  "asynchronous_schedules": {
+    "cases": [
+      {
+        "fixed_schedule_exact": true,
+        "maximum_messages": 946,
+        "minimum_messages": 946,
+        "name": "adder8",
+        "random_schedule_failures": 0,
+        "random_schedules": 100,
+        "success": true
+      },
+      {
+        "fixed_schedule_exact": true,
+        "maximum_messages": 15918,
+        "minimum_messages": 15918,
+        "name": "multiplier8",
+        "random_schedule_failures": 0,
+        "random_schedules": 100,
+        "success": true
+      },
+      {
+        "fixed_schedule_exact": true,
+        "maximum_messages": 8448,
+        "minimum_messages": 8448,
+        "name": "random16_256",
+        "random_schedule_failures": 0,
+        "random_schedules": 100,
+        "success": true
+      }
+    ],
+    "full_scale": true,
+    "required_schedules_per_program": 100,
+    "success": true
+  },
+  "elapsed_seconds": 48.304310583975166,
+  "exact_programs": {
+    "cases": [
+      {
+        "assignments": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 0.06914899998810142,
+        "faulted_cells": 48,
+        "faulted_gate_cells": 12,
+        "faulted_wire_cells": 36,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 108,
+        "initial_wire_cells": 377,
+        "name": "adder8",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "repairs": 8,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 8,
+          "structural_replacements": 8
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 0.7735903330030851,
+        "faulted_cells": 735,
+        "faulted_gate_cells": 159,
+        "faulted_wire_cells": 576,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 1545,
+        "initial_wire_cells": 5805,
+        "name": "multiplier8",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "repairs": 154,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 192,
+          "structural_replacements": 192
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments": 262144,
+        "damaged_valid": false,
+        "elapsed_seconds": 0.5454722919967026,
+        "faulted_cells": 123,
+        "faulted_gate_cells": 29,
+        "faulted_wire_cells": 94,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 268,
+        "initial_wire_cells": 959,
+        "name": "alu8",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "repairs": 36,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 48,
+          "structural_replacements": 48
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      }
+    ],
+    "success": true
+  },
+  "fault_modes": {
+    "cases": [
+      {
+        "damaged_valid": false,
+        "mode": "gate",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "success": true,
+        "target": 8
+      },
+      {
+        "damaged_valid": false,
+        "mode": "internal_wire",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "success": true,
+        "target": 9
+      },
+      {
+        "damaged_valid": false,
+        "mode": "external_wire",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "success": true,
+        "target": 12
+      },
+      {
+        "damaged_valid": false,
+        "mode": "physical_edge",
+        "repaired_error_bits": 0,
+        "repaired_valid": true,
+        "success": true,
+        "target": [
+          0,
+          12
+        ]
+      }
+    ],
+    "success": true
+  },
+  "hard_gates": {
+    "all_failure_instances_reported": true,
+    "blueprint_impossible_morphology_feasible": true,
+    "bounded_exhaustive_repair_zero_errors": true,
+    "complete_non_io_gate_wire_turnover": true,
+    "critical_path_damage_causes_failure": true,
+    "every_logical_connection_has_physical_path": true,
+    "independent_physical_replay_matches": true,
+    "no_abstract_semantic_bypass": true,
+    "one_4096_gate_stress_program": true,
+    "one_hundred_random_async_schedules": true,
+    "pytest_all_pass": true,
+    "state_program_cycle_exactness_and_turnover": true,
+    "ten_1024_gate_random_programs_three_phases": true,
+    "ten_percent_gate_wire_fault_recovery": true
+  },
+  "morphology_capacity": {
+    "alternative_gate_cells": 7,
+    "alternative_physical_placement_routing_feasible": true,
+    "alternative_variant": "anf",
+    "alternative_wire_cells": 22,
+    "blueprint_physical_placement_routing_feasible": false,
+    "blueprint_variant": "sop",
+    "local_shadow_cell_budget": 35,
+    "physical_exhaustive_error_bits": 0,
+    "physical_exhaustive_valid": true,
+    "success": true
+  },
+  "no_semantic_bypass": {
+    "disabled_functions": [
+      "Program.evaluate_bits",
+      "Program.evaluate_scalar",
+      "Variant.evaluate_bits",
+      "Variant.evaluate_scalar",
+      "Contract.evaluate_bits"
+    ],
+    "expected_outputs": [
+      8
+    ],
+    "physical_outputs": [
+      8
+    ],
+    "physical_valid": true,
+    "success": true
+  },
+  "physical_causality": {
+    "assignments": 65536,
+    "cut_wire_cell": 558,
+    "damaged_error_bits": 32768,
+    "damaged_reason": "INVALID",
+    "damaged_valid": false,
+    "gate_operation_corruption_error_bits": 24640,
+    "independent_replay_error_bits": 0,
+    "independent_replay_valid": true,
+    "initial_error_bits": 0,
+    "initial_valid": true,
+    "new_output_path": [
+      29,
+      591,
+      17
+    ],
+    "old_output_path": [
+      29,
+      558,
+      17
+    ],
+    "path_changed": true,
+    "repaired_error_bits": 0,
+    "repaired_valid": true,
+    "repairs": 0,
+    "route_metrics": {
+      "active_routed_nets": 323,
+      "active_wire_cells": 323,
+      "maximum_path_hops": 2,
+      "routing_attempts": 356,
+      "routing_failures": 0,
+      "total_route_hops": 646,
+      "total_wire_cells_allocated_lifetime": 356,
+      "wire_cell_congestion": 1
+    },
+    "success": true
+  },
+  "pytest": {
+    "returncode": 0,
+    "stderr": "",
+    "stdout": "................                                                         [100%]\n16 passed in 1.57s",
+    "success": true
+  },
+  "quick_mode": false,
+  "random_programs": {
+    "cases": [
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4516804160084575,
+        "faulted_cells": 1431,
+        "faulted_gate_cells": 303,
+        "faulted_wire_cells": 1128,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2884,
+        "initial_valid": true,
+        "initial_wire_cells": 11424,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 583,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10120,
+          "active_wire_cells": 10120,
+          "maximum_path_hops": 2,
+          "routing_attempts": 26927,
+          "routing_failures": 0,
+          "total_route_hops": 20240,
+          "total_wire_cells_allocated_lifetime": 26927,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9100,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.45527958299499,
+        "faulted_cells": 1458,
+        "faulted_gate_cells": 303,
+        "faulted_wire_cells": 1155,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2964,
+        "initial_valid": true,
+        "initial_wire_cells": 11617,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 564,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10161,
+          "active_wire_cells": 10161,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27131,
+          "routing_failures": 0,
+          "total_route_hops": 20322,
+          "total_wire_cells_allocated_lifetime": 27131,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9101,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4497687080292962,
+        "faulted_cells": 1469,
+        "faulted_gate_cells": 315,
+        "faulted_wire_cells": 1154,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2987,
+        "initial_valid": true,
+        "initial_wire_cells": 11703,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 568,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10146,
+          "active_wire_cells": 10146,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27219,
+          "routing_failures": 0,
+          "total_route_hops": 20292,
+          "total_wire_cells_allocated_lifetime": 27219,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9102,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4826246669981629,
+        "faulted_cells": 1494,
+        "faulted_gate_cells": 307,
+        "faulted_wire_cells": 1187,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 3068,
+        "initial_valid": true,
+        "initial_wire_cells": 11870,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 568,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10223,
+          "active_wire_cells": 10223,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27488,
+          "routing_failures": 0,
+          "total_route_hops": 20446,
+          "total_wire_cells_allocated_lifetime": 27488,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9103,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4191340830293484,
+        "faulted_cells": 1454,
+        "faulted_gate_cells": 268,
+        "faulted_wire_cells": 1186,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2933,
+        "initial_valid": true,
+        "initial_wire_cells": 11612,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 571,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10165,
+          "active_wire_cells": 10165,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27210,
+          "routing_failures": 0,
+          "total_route_hops": 20330,
+          "total_wire_cells_allocated_lifetime": 27210,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9104,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4015858749626204,
+        "faulted_cells": 1361,
+        "faulted_gate_cells": 245,
+        "faulted_wire_cells": 1116,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2664,
+        "initial_valid": true,
+        "initial_wire_cells": 10946,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 557,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10149,
+          "active_wire_cells": 10149,
+          "maximum_path_hops": 2,
+          "routing_attempts": 26395,
+          "routing_failures": 0,
+          "total_route_hops": 20298,
+          "total_wire_cells_allocated_lifetime": 26395,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9105,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4468011659919284,
+        "faulted_cells": 1420,
+        "faulted_gate_cells": 284,
+        "faulted_wire_cells": 1136,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2827,
+        "initial_valid": true,
+        "initial_wire_cells": 11371,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 565,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10330,
+          "active_wire_cells": 10330,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27094,
+          "routing_failures": 0,
+          "total_route_hops": 20660,
+          "total_wire_cells_allocated_lifetime": 27094,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9106,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4085190829937346,
+        "faulted_cells": 1439,
+        "faulted_gate_cells": 318,
+        "faulted_wire_cells": 1121,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2890,
+        "initial_valid": true,
+        "initial_wire_cells": 11504,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 565,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10286,
+          "active_wire_cells": 10286,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27223,
+          "routing_failures": 0,
+          "total_route_hops": 20572,
+          "total_wire_cells_allocated_lifetime": 27223,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9107,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4238546249689534,
+        "faulted_cells": 1482,
+        "faulted_gate_cells": 312,
+        "faulted_wire_cells": 1170,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 3038,
+        "initial_valid": true,
+        "initial_wire_cells": 11777,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 601,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10285,
+          "active_wire_cells": 10285,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27546,
+          "routing_failures": 0,
+          "total_route_hops": 20570,
+          "total_wire_cells_allocated_lifetime": 27546,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9108,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      },
+      {
+        "assignments_per_phase": 65536,
+        "damaged_valid": false,
+        "elapsed_seconds": 1.4661014589946717,
+        "faulted_cells": 1465,
+        "faulted_gate_cells": 305,
+        "faulted_wire_cells": 1160,
+        "initial_error_bits": 0,
+        "initial_gate_cells": 2963,
+        "initial_valid": true,
+        "initial_wire_cells": 11685,
+        "maximum_degree": 4,
+        "outputs": 8,
+        "repaired_error_bits": 0,
+        "repaired_organs": 561,
+        "repaired_valid": true,
+        "route_metrics": {
+          "active_routed_nets": 10385,
+          "active_wire_cells": 10385,
+          "maximum_path_hops": 2,
+          "routing_attempts": 27498,
+          "routing_failures": 0,
+          "total_route_hops": 20770,
+          "total_wire_cells_allocated_lifetime": 27498,
+          "wire_cell_congestion": 1
+        },
+        "seed": 9109,
+        "source_gates": 1024,
+        "success": true,
+        "turnover": {
+          "original_non_io_gate_cells_remaining": 0,
+          "original_state_cells_remaining": 0,
+          "original_wire_cells_remaining": 0,
+          "repairs": 1024,
+          "structural_replacements": 1024
+        },
+        "turnover_error_bits": 0,
+        "turnover_valid": true
+      }
+    ],
+    "executed_1024_cases": 10,
+    "full_scale": true,
+    "required_1024_cases": 10,
+    "stress": {
+      "assignments_per_phase": 65536,
+      "damaged_valid": false,
+      "elapsed_seconds": 6.47978462500032,
+      "faulted_cells": 5757,
+      "faulted_gate_cells": 1185,
+      "faulted_wire_cells": 4572,
+      "initial_error_bits": 0,
+      "initial_gate_cells": 11688,
+      "initial_valid": true,
+      "initial_wire_cells": 45882,
+      "maximum_degree": 4,
+      "outputs": 16,
+      "repaired_error_bits": 0,
+      "repaired_organs": 2295,
+      "repaired_valid": true,
+      "route_metrics": {
+        "active_routed_nets": 40788,
+        "active_wire_cells": 40788,
+        "maximum_path_hops": 2,
+        "routing_attempts": 108125,
+        "routing_failures": 0,
+        "total_route_hops": 81576,
+        "total_wire_cells_allocated_lifetime": 108125,
+        "wire_cell_congestion": 1
+      },
+      "seed": 9900,
+      "source_gates": 4096,
+      "success": true,
+      "turnover": {
+        "original_non_io_gate_cells_remaining": 0,
+        "original_state_cells_remaining": 0,
+        "original_wire_cells_remaining": 0,
+        "repairs": 4096,
+        "structural_replacements": 4096
+      },
+      "turnover_error_bits": 0,
+      "turnover_valid": true
+    },
+    "success": true
+  },
+  "state_program": {
+    "active_support_healthy": true,
+    "cycles": 2000,
+    "elapsed_seconds": 9.42200912500266,
+    "final_state": 228,
+    "full_scale": true,
+    "original_non_io_gate_cells_remaining": 0,
+    "original_state_cells_remaining": 0,
+    "original_wire_cells_remaining": 0,
+    "physical_certificates_valid": true,
+    "reference_state": 228,
+    "repair_events": 112,
+    "success": true
+  },
+  "unexpected_failure_count": 0,
+  "version": "E-CORM v0.2"
+}
