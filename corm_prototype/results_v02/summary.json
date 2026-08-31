@@ -75,13 +75,13 @@
     "required_schedules_per_program": 100,
     "success": true
   },
-  "elapsed_seconds": 48.304310583975166,
+  "elapsed_seconds": 40.73979754198808,
   "exact_programs": {
     "cases": [
       {
         "assignments": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 0.06914899998810142,
+        "elapsed_seconds": 0.05875929200556129,
         "faulted_cells": 48,
         "faulted_gate_cells": 12,
         "faulted_wire_cells": 36,
@@ -106,7 +106,7 @@
       {
         "assignments": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 0.7735903330030851,
+        "elapsed_seconds": 0.6037645839969628,
         "faulted_cells": 735,
         "faulted_gate_cells": 159,
         "faulted_wire_cells": 576,
@@ -131,7 +131,7 @@
       {
         "assignments": 262144,
         "damaged_valid": false,
-        "elapsed_seconds": 0.5454722919967026,
+        "elapsed_seconds": 0.4517926250118762,
         "faulted_cells": 123,
         "faulted_gate_cells": 29,
         "faulted_wire_cells": 94,
@@ -281,7 +281,7 @@
   "pytest": {
     "returncode": 0,
     "stderr": "",
-    "stdout": "................                                                         [100%]\n16 passed in 1.57s",
+    "stdout": "................                                                         [100%]\n16 passed in 1.41s",
     "success": true
   },
   "quick_mode": false,
@@ -290,7 +290,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4516804160084575,
+        "elapsed_seconds": 1.19082395802252,
         "faulted_cells": 1431,
         "faulted_gate_cells": 303,
         "faulted_wire_cells": 1128,
@@ -329,7 +329,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.45527958299499,
+        "elapsed_seconds": 1.212367957981769,
         "faulted_cells": 1458,
         "faulted_gate_cells": 303,
         "faulted_wire_cells": 1155,
@@ -368,7 +368,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4497687080292962,
+        "elapsed_seconds": 1.2148712910129689,
         "faulted_cells": 1469,
         "faulted_gate_cells": 315,
         "faulted_wire_cells": 1154,
@@ -407,7 +407,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4826246669981629,
+        "elapsed_seconds": 1.2130938330083154,
         "faulted_cells": 1494,
         "faulted_gate_cells": 307,
         "faulted_wire_cells": 1187,
@@ -446,7 +446,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4191340830293484,
+        "elapsed_seconds": 1.1893187920213677,
         "faulted_cells": 1454,
         "faulted_gate_cells": 268,
         "faulted_wire_cells": 1186,
@@ -485,7 +485,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4015858749626204,
+        "elapsed_seconds": 1.1687347079860047,
         "faulted_cells": 1361,
         "faulted_gate_cells": 245,
         "faulted_wire_cells": 1116,
@@ -524,7 +524,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4468011659919284,
+        "elapsed_seconds": 1.2016187090193853,
         "faulted_cells": 1420,
         "faulted_gate_cells": 284,
         "faulted_wire_cells": 1136,
@@ -563,7 +563,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4085190829937346,
+        "elapsed_seconds": 1.1878728329902515,
         "faulted_cells": 1439,
         "faulted_gate_cells": 318,
         "faulted_wire_cells": 1121,
@@ -602,7 +602,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4238546249689534,
+        "elapsed_seconds": 1.205434957984835,
         "faulted_cells": 1482,
         "faulted_gate_cells": 312,
         "faulted_wire_cells": 1170,
@@ -641,7 +641,7 @@
       {
         "assignments_per_phase": 65536,
         "damaged_valid": false,
-        "elapsed_seconds": 1.4661014589946717,
+        "elapsed_seconds": 1.211880500020925,
         "faulted_cells": 1465,
         "faulted_gate_cells": 305,
         "faulted_wire_cells": 1160,
@@ -684,7 +684,7 @@
     "stress": {
       "assignments_per_phase": 65536,
       "damaged_valid": false,
-      "elapsed_seconds": 6.47978462500032,
+      "elapsed_seconds": 5.409431624982972,
       "faulted_cells": 5757,
       "faulted_gate_cells": 1185,
       "faulted_wire_cells": 4572,
@@ -725,7 +725,7 @@
   "state_program": {
     "active_support_healthy": true,
     "cycles": 2000,
-    "elapsed_seconds": 9.42200912500266,
+    "elapsed_seconds": 8.390563833003398,
     "final_state": 228,
     "full_scale": true,
     "original_non_io_gate_cells_remaining": 0,

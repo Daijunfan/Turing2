@@ -1,0 +1,38 @@
+{
+  "all_hard_gates_pass": true,
+  "audit_date": "2026-08-31",
+  "full_experiment_elapsed_seconds": 40.73979754198808,
+  "git_commit_reproduced": "825f049da99c9af2dbc145d3e7ddc69b9b2ea437",
+  "hard_gates": {
+    "all_failure_instances_reported": true,
+    "blueprint_impossible_morphology_feasible": true,
+    "bounded_exhaustive_repair_zero_errors": true,
+    "complete_non_io_gate_wire_turnover": true,
+    "critical_path_damage_causes_failure": true,
+    "every_logical_connection_has_physical_path": true,
+    "independent_physical_replay_matches": true,
+    "no_abstract_semantic_bypass": true,
+    "one_4096_gate_stress_program": true,
+    "one_hundred_random_async_schedules": true,
+    "pytest_all_pass": true,
+    "state_program_cycle_exactness_and_turnover": true,
+    "ten_1024_gate_random_programs_three_phases": true,
+    "ten_percent_gate_wire_fault_recovery": true
+  },
+  "pytest": {
+    "passed": 16,
+    "failed": 0
+  },
+  "public_repository": {
+    "http_status": 200,
+    "ls_remote_commit": "825f049da99c9af2dbc145d3e7ddc69b9b2ea437",
+    "verified_without_credentials": true
+  },
+  "reproduction_commands": [
+    "/tmp/ecorm-v02-venv/bin/python -m pytest -q",
+    "/tmp/ecorm-v02-venv/bin/python run_experiments_v02.py"
+  ],
+  "unexpected_failure_count": 0,
+  "v02_source_files_present": true,
+  "v02_tests_present": 16
+}

@@ -1,0 +1,14 @@
+{
+  "all_hard_gates_pass": true,
+  "audit_date": "2026-08-31",
+  "git_commit_reproduced": "825f049da99c9af2dbc145d3e7ddc69b9b2ea437",
+  "machine": "arm64",
+  "platform": "macOS-26.3.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "pytest": "16 passed in 1.41s",
+  "python": "3.14.6",
+  "reproduction_command": "/tmp/ecorm-v02-venv/bin/python run_experiments_v02.py",
+  "public_repository_http_status": 200,
+  "public_repository_ls_remote": true,
+  "unexpected_failure_count": 0
+}
